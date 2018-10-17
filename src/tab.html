@@ -3,32 +3,42 @@
 <head>
 	<title>Tab</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="tab.css">
+	<link rel="stylesheet" type="text/css" href="tabs.css">
 	<link rel="stylesheet" type="text/css" href="heading.css">
 </head>
 <body>
-	<div class="tab">
+	<div class="tabs">
 		<h2 class="heading heading_left heading_paragraphs ">Installation</h2>	
 		<nav class="box-nav">
-			<label for="macbox" class="box-nav__label">sklaS
-				<input id="macbox" type="checkbox" class="box-nav__input">
-			</label>
-				
-				<input type="checkbox" class="box-nav__input">
-				<input type="checkbox" class="box-nav__input">
+			<div class="tab">
+				<label for="macbox" class="box-nav__label">sklaS
+				</label>
+				<input id="macbox" type="radio" class="box-nav__input" name="boxgroup-1">
+				<p class="windows__item windows__item_mac">
+					мак
+				</p>
+			</div>
+
+			<div class="tab">
+				<label for="linuxbox" class="box-nav__label">sklaS
+				</label>
+				<input id="linuxbox" type="radio" class="box-nav__input" name="boxgroup-1">
+				<p class="windows__item windows__item_linux">
+					линух
+				</p>
+			</div>
+			
 		</nav>
 
-		<div class="windows">
-			<p class="windows__item windows__item_mac">
-				мак
-			</p>
-			<p class="windows__item windows__item_linux">
-				линух
-			</p>
-			<p class="windows__item windows__item_windows">
-				винда
-			</p>
-		</div>
+		
+
+		<p class="windows__item windows__item_linux">
+			линух
+		</p>
+		<p class="windows__item windows__item_windows">
+			винда
+		</p>
+		
 
 	</div>
 

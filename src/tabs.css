@@ -1,0 +1,18 @@
+.windows__item {
+	display: none;
+	position: absolute;
+	left: 0px;
+}
+
+.tab {
+	position: relative;
+}
+
+
+#macbox:checked ~ .windows__item_mac {
+	display: block;
+}
+
+#linuxbox:checked ~ .windows__item_linux {
+	display: block;
+}
