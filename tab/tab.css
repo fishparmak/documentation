@@ -37,6 +37,9 @@
 .tabs__label:hover {
   border-bottom-color: #432e30;
 }
+.tabs__label:hover .tabs__label {
+  border-bottom: none;
+}
 .tabs__label:active {
   border-bottom-color: #432e30;
 }
