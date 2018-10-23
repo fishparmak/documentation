@@ -51,12 +51,14 @@
 .tabs__input {
   display: none;
 }
+
 .tabs__list {
 }
 
 .tabs__content:last-child {
   display: block;
 }
+
 .tabs__content {
   display: none;
 	background: #f8f8fa;
@@ -65,6 +67,7 @@
 	width: 100%;
 	padding: 24px 0 24px 24px;
 }
+
 .tabs__input:checked + .tabs__label {
   border-bottom-color: #432e30;
 }
